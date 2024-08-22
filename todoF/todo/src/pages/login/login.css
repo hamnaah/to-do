@@ -1,0 +1,87 @@
+/* CSS for login page */
+
+.login {
+    display: flex; /* Center vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Cover full viewport */
+    background-color: #f2f2f2; /* Light background */
+  }
+  
+  .login-box {
+    background-color: #fff; /* White for form */
+    border: 1px solid #ccc; /* Light border */
+    padding: 30px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block; /* Block-level for spacing */
+  }
+  
+  .input {
+    display: block; /* Block-level for full width */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .button-group {
+    display: flex; /* Horizontal button arrangement */
+    justify-content: space-between;
+  }
+  
+  .button {
+    background-color: #344cc2; /* Green color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: #4e6694; /* Darker green on hover */
+  }
+  
+
+
+
+/* .login-box .input{
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 0.5px 1px;
+}
+
+.login-box .button-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button-group .button{
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    background-color: black;
+    color:antiquewhite;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
